@@ -15,3 +15,12 @@ Image classification using Convolutional Neural Networks (CNNs) is a common task
 7. **Deployment**: Deploy the trained model for real-world applications. This could involve integrating the model into a larger software system, developing a user interface for interaction, or deploying the model to a cloud service for inference.
 
 When implementing image classification using CNNs, popular deep learning frameworks such as TensorFlow, Keras, and PyTorch provide convenient APIs for building, training, and deploying CNN models. Additionally, pre-trained CNN models like VGG, ResNet, and Inception are available, which can be fine-tuned on specific datasets to achieve good performance with less training data.
+
+This code does the following:
+Loads the CIFAR-10 dataset.
+Normalizes pixel values to the range [0, 1].
+Defines a simple CNN model architecture using Keras' Sequential API.
+Compiles the model with Adam optimizer and sparse categorical cross-entropy loss.
+Trains the model on the training data for 10 epochs.
+Evaluates the trained model on the test data and prints the test accuracy.
+Plots the training and validation accuracy over epochs
