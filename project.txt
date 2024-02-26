@@ -1,0 +1,1 @@
+details regarding the project
